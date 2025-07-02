@@ -1,95 +1,131 @@
-# Profile Analysis System
+# Keyword Extraction
 
-This system analyzes text input to extract various attributes and preferences, particularly useful for relationship/dating profile analysis. It uses NLP techniques with spaCy and includes machine learning capabilities for age prediction.
+A sophisticated semantic preference tagging system that extracts and categorizes keywords from text input, particularly designed for relationship/dating profile analysis. The system uses advanced NLP techniques with spaCy and FastText word vectors for precise keyword extraction and semantic similarity matching.
+
+## Features
+
+- **Precise Keyword Extraction**: Extracts specific keywords and phrases from text using pattern matching and semantic analysis
+- **Multi-Category Tagging**: Categorizes extracted keywords into 12 different preference categories
+- **Semantic Similarity**: Uses FastText word vectors for intelligent keyword matching
+- **CSV-Based Training Data**: Leverages comprehensive CSV datasets for accurate keyword recognition
+- **Hybrid Extraction**: Combines exact matching and semantic similarity for optimal results
+
+## Extracted Categories
+
+The system extracts and categorizes keywords into the following categories:
+
+1. **Religion & Caste** - Religious background and caste information
+2. **Language & Ethnicity** - Languages spoken and ethnic background
+3. **Diet & Lifestyle** - Dietary preferences and lifestyle choices
+4. **Smoking / Drinking Habits** - Smoking and alcohol consumption patterns
+5. **Education & Profession** - Educational background and professional information
+6. **Values & Personality Traits** - Personal values and character traits
+7. **Hobbies & Interests** - Recreational activities and interests
+8. **Relationship & Family Views** - Views on relationships and family
+9. **Spiritual/Religious Inclinations** - Spiritual practices and religious activities
+10. **Height** - Physical height information
+11. **Age & Age Range** - Age and age range preferences
+12. **Location & Relocation Preferences** - Geographic preferences and location data
 
 ## Setup
 
-1. Make sure you have Python 3.13 installed (this version is required for compatibility with the latest package versions).
+1. **Python Requirements**: Python 3.7+ (recommended: Python 3.8+)
 
-2. Install the required dependencies:
+2. **Install Dependencies**:
 ```bash
-# First, upgrade pip and install build tools
-python -m pip install --upgrade pip
-pip install wheel setuptools
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install the dependencies
+# Install required packages
 pip install -r requirements.txt
 
-# Finally, download the spaCy English language model
+# Download spaCy English language model
 python -m spacy download en_core_web_sm
 ```
 
-## Required Model Files
-
-The system requires the following model files to be present in the working directory:
-- `best_rf_model.pkl` - Random Forest model for age prediction
-- `scaler.pkl` - Scaler for feature normalization
-- `encoders.pkl` - Label encoders for categorical features
+3. **Required Files**:
+   - `keyword_extractor.py` - Main extraction script
+   - `CSV/` directory containing training data files:
+     - `religion_caste.csv`
+     - `language.csv`
+     - `diet_lifestyle.csv`
+     - `education.csv`
+     - `profession.csv`
+     - `Values _ Personality Traits.csv`
+     - `Hobbies_ Interests.csv`
+     - `spiritual_religious.csv`
+     - `location.csv`
+     - And other category-specific CSV files
 
 ## Usage
 
-Run the script:
+Run the keyword extraction system:
 ```bash
 python keyword_extractor.py
 ```
 
-Enter your text when prompted, and the system will return:
-- Extracted attributes and preferences
-- Categorized information including:
-  - Age & Age Range
-  - Height
-  - Religion & Caste
-  - Language & Ethnicity
-  - Diet & Lifestyle
-  - Smoking/Drinking Habits
-  - Education & Profession
-  - Values & Personality Traits
-  - Location & Relocation Preferences
-  - Hobbies & Interests
-  - Relationship & Family Views
-  - Spiritual/Religious Inclinations
-  - Other Preferences
+Enter your text when prompted. The system will analyze the input and return categorized keywords in JSON format.
 
 ## Example Input
 ```
-I am a 28-year-old vegetarian from India, 5'8" tall. I speak English and Hindi, and I'm interested in music and books. I am a non-smoker and work as a software engineer.
+I'm seeking a patient and emotionally resilient partner in her early 30s from a Gujarati-speaking Patel background, ideally around 5'2" tall and fluent in Gujarati and English. She follows a vegetarian diet rooted in family traditions, enjoys preparing regional sweets during festivals like Janmashtami and Diwali, and lives a lifestyle free from smoking and alcohol. She holds a degree in civil engineering and currently works as a sustainability consultant in Ahmedabad, focusing on green infrastructure in tier-2 cities.
 ```
 
-## Features
-- Text preprocessing and normalization
-- Pattern-based attribute extraction
-- Named entity recognition using spaCy
-- Categorical feature encoding
-- Age prediction using machine learning
-- Comprehensive category matching
-- Handles various formats of age, height, and other attributes
+## Example Output
+```json
+{
+  "Religion & Caste": ["patel"],
+  "Language & Ethnicity": ["English", "Gujarati"],
+  "Values & Personality Traits": ["emotionally resilient"],
+  "Diet & Lifestyle": ["follows vegetarian diet"],
+  "Hobbies & Interests": ["preparing regional sweets"],
+  "Education & Profession": ["civil engineering", "sustainability consultant"],
+  "Height": ["5'2"],
+  "Age & Age Range": ["early 30s"],
+  "Location & Relocation Preferences": ["Ahmedabad"],
+  "Smoking / Drinking habits": ["lifestyle free from smoking and alcohol"]
+}
+```
+
+## Technical Details
+
+### Extraction Methods
+- **Pattern-Based Extraction**: Uses regex patterns for structured data like height, age, and location
+- **Semantic Similarity**: Leverages FastText word vectors for fuzzy keyword matching
+- **Exact Matching**: Precise matching for religion, caste, and other specific terms
+- **Named Entity Recognition**: Uses spaCy NER for location and entity extraction
+
+### Data Sources
+- **CSV Training Data**: Comprehensive datasets for each category
+- **Hardcoded Fallbacks**: Backup data for categories without CSV files
+- **Dynamic Loading**: Automatically loads and processes CSV data at runtime
+
+### Accuracy Features
+- **Word Boundary Protection**: Prevents substring matches (e.g., "nat" in "coordinate")
+- **Context-Aware Extraction**: Considers surrounding words and phrases
+- **Duplicate Prevention**: Removes redundant and overlapping keywords
+- **Category-Specific Logic**: Custom extraction rules for different categories
 
 ## Troubleshooting
 
-If you encounter any installation issues:
+### Common Issues
 
-1. Make sure you have the latest pip:
-```bash
-python -m pip install --upgrade pip
-```
+1. **CSV Loading Errors**: Ensure all CSV files are in the `CSV/` directory
+2. **Model Download Issues**: Run `python -m spacy download en_core_web_sm` if spaCy model is missing
+3. **Package Conflicts**: Use a virtual environment to avoid dependency conflicts
 
-2. Install build tools:
-```bash
-pip install wheel setuptools
-```
+### Performance Tips
+- The system loads FastText vectors on startup (may take a few seconds)
+- Large text inputs are processed efficiently using optimized algorithms
+- CSV data is cached after initial loading for faster subsequent runs
 
-3. Try installing dependencies one by one in this specific order:
-```bash
-pip install numpy>=1.26.0
-pip install spacy>=3.7.2
-pip install scikit-learn>=1.3.2
-pip install pandas>=2.1.0
-pip install joblib>=1.3.2
-```
+## Dependencies
 
-4. If you get model file errors, ensure all required .pkl files are in the working directory:
-- best_rf_model.pkl
-- scaler.pkl
-- encoders.pkl
+- `spacy` - NLP processing and named entity recognition
+- `gensim` - FastText word vectors
+- `scikit-learn` - Cosine similarity calculations
+- `pandas` - CSV data processing
+- `numpy` - Numerical operations
+- `re` - Regular expression processing
 
-Note: If you're using an older version of Python (3.7-3.12), you'll need to use the older package versions from the previous requirements.txt file. 
