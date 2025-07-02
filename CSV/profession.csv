@@ -1,0 +1,202 @@
+phrase,matched_tag
+software engineer,software engineer
+works in IT,software engineer
+tech professional,software engineer
+developer by profession,software engineer
+writes code for a living,software engineer
+programmer,software engineer
+IT consultant,software engineer
+full stack developer,software engineer
+backend engineer,software engineer
+frontend developer,software engineer
+data scientist,data scientist
+machine learning engineer,data scientist
+AI specialist,data scientist
+works in data, data scientist
+analyzes data for work,data scientist
+statistical modeling expert,data scientist
+data analyst,data analyst
+works with numbers,data analyst
+excel and SQL pro,data analyst
+data visualization expert,data analyst
+finance professional,finance professional
+works in investment banking,finance professional
+banker,finance professional
+auditor,finance professional
+financial analyst,finance professional
+chartered accountant,finance professional
+CA by profession,finance professional
+cost accountant,finance professional
+marketing professional,marketing professional
+works in advertising,marketing professional
+brand strategist,marketing professional
+digital marketer,marketing professional
+SEO specialist,marketing professional
+content marketer,marketing professional
+social media manager,marketing professional
+sales executive,sales professional
+business development professional,sales professional
+in corporate sales,sales professional
+targets-driven role,sales professional
+negotiation and sales expert,sales professional
+healthcare worker,healthcare
+doctor,healthcare
+surgeon,healthcare
+dentist,healthcare
+physiotherapist,healthcare
+nurse,healthcare
+medical professional,healthcare
+pharmacist,healthcare
+vet,healthcare
+homoeopath,healthcare
+psychologist,mental health professional
+therapist,mental health professional
+counselor,mental health professional
+clinical psychologist,mental health professional
+psychiatrist,mental health professional
+lawyer,legal professional
+advocate,legal professional
+legal consultant,legal professional
+corporate lawyer,legal professional
+litigation expert,legal professional
+judge,legal professional
+civil services,government
+IAS officer,government
+government employee,government
+public sector employee,government
+works in PSU,government
+defense professional,government
+army officer,defense
+navy officer,defense
+airforce pilot,defense
+paramilitary personnel,defense
+works in defense,defense
+teacher,education professional
+lecturer,education professional
+college professor,education professional
+school principal,education professional
+educationist,education professional
+researcher,academia
+scientist,academia
+research associate,academia
+phd scholar,academia
+works in a lab,academia
+engineer,engineering
+civil engineer,engineering
+mechanical engineer,engineering
+electrical engineer,engineering
+electronics engineer,engineering
+automobile engineer,engineering
+architect,architecture
+interior designer,architecture
+urban planner,architecture
+designs homes,architecture
+fashion designer,fashion
+textile designer,fashion
+style consultant,fashion
+works in apparel,fashion
+graphic designer,creative
+UI/UX designer,creative
+product designer,creative
+illustrator,creative
+creative director,creative
+art director,creative
+actor,entertainment
+model,entertainment
+dancer,entertainment
+TV anchor,entertainment
+youtuber,entertainment
+influencer,entertainment
+filmmaker,entertainment
+video editor,entertainment
+content creator,entertainment
+journalist,media
+editor,media
+news anchor,media
+photojournalist,media
+media professional,media
+civil engineer,engineering
+mechanic,technician
+electrician,technician
+plumber,technician
+technician by profession,technician
+driver,transport
+truck driver,transport
+logistics manager,transport
+pilot,transport
+airline crew,transport
+chef,hospitality
+hotel manager,hospitality
+event planner,hospitality
+hospitality professional,hospitality
+bartender,hospitality
+air hostess,hospitality
+receptionist,hospitality
+entrepreneur,entrepreneur
+startup founder,entrepreneur
+runs own business,entrepreneur
+self-employed,entrepreneur
+small business owner,entrepreneur
+freelancer,freelancer
+freelance writer,freelancer
+independent consultant,freelancer
+gig worker,freelancer
+works on own terms,freelancer
+artist,artist
+painter,artist
+sculptor,artist
+musician,artist
+composer,artist
+singer,artist
+creative professional,artist
+sports person,sports
+athlete,sports
+cricketer,sports
+footballer,sports
+coach,sports
+fitness trainer,sports
+yoga instructor,fitness
+gym trainer,fitness
+nutritionist,fitness
+wellness coach,fitness
+dietitian,fitness
+farmer,agriculture
+agricultural professional,agriculture
+horticulturist,agriculture
+works in farming,agriculture
+journal reviewer,academia
+environmental scientist,academia
+wildlife conservationist,academia
+NGO worker,non-profit
+social worker,non-profit
+activist,non-profit
+environmentalist,non-profit
+human rights advocate,non-profit
+clerical worker,clerical
+office assistant,clerical
+admin staff,clerical
+data entry operator,clerical
+BPO employee,bpo
+call center agent,bpo
+customer support,bpo
+night shift professional,bpo
+IT support,bpo
+student,student
+pursuing graduation,student
+engineering student,student
+MBA student,student
+medical student,student
+home maker,home maker
+stay-at-home mom,home maker
+stay-at-home dad,home maker
+housewife,home maker
+retired professional,retired
+retired government officer,retired
+former teacher,retired
+retired banker,retired
+retired army officer,retired
+between jobs,unemployed
+currently job hunting,unemployed
+taking a career break,unemployed
+not working currently,unemployed
+on sabbatical,unemployed

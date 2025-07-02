@@ -1,0 +1,114 @@
+willing to move to another country,open_to_relocate  
+can relocate post-marriage,open_to_relocate  
+mobile across cities,open_to_relocate  
+relocation is acceptable,open_to_relocate  
+can shift as per partner’s location,open_to_relocate  
+location-neutral,open_to_relocate  
+flexible to move anywhere in India or abroad,open_to_relocate  
+open to settle where partner is,open_to_relocate  
+partner's location is fine,open_to_relocate  
+open to new city,open_to_relocate  
+open to explore cities after marriage,open_to_relocate  
+
+deeply rooted in native city,prefers_same_city  
+cannot relocate due to family,prefers_same_city  
+wants to live near parents,prefers_same_city  
+not keen on shifting base,prefers_same_city  
+prefer staying close to relatives,prefers_same_city  
+permanently settled in current location,prefers_same_city  
+location-bound job,prefers_same_city  
+emotionally attached to home city,prefers_same_city  
+prefers working from hometown,prefers_same_city  
+
+want Indian citizen only,india_only  
+not willing to move abroad,india_only  
+Indian match preferred,india_only  
+residency in India must,india_only  
+seeks India-based alliances,india_only  
+Indian groom only,india_only  
+Indian lifestyle preferred,india_only  
+
+looking for NRI based in Europe,nri  
+NRI with stable job preferred,nri  
+prefers globally settled match,nri  
+NRI match with Indian values,nri  
+overseas citizen preferred,nri  
+match settled abroad preferred,nri  
+NRI with western exposure,nri  
+open to US, UK, or Canada matches,nri  
+
+works from hills,remote_work  
+works remotely from native village,remote_work  
+location-agnostic role,remote_work  
+independent worker,remote_work  
+telecommuter,remote_work  
+location-flexible job,remote_work  
+
+living in Pune,pune  
+wants Pune-based match,pune  
+prefers Pune city,pune  
+
+based in Coimbatore,coimbatore  
+coimbatore native preferred,coimbatore  
+wants to stay in Coimbatore,coimbatore  
+
+lives in Mysore,mysore  
+settled in Mysore,mysore  
+wants match from Mysore,mysore  
+
+wants to live in Kerala post-marriage,kerala  
+seeking match from Trivandrum,kerala  
+kannur based family,kerala  
+calicut preferred,kerala  
+
+north east India preferred,north_east_india  
+interested in Sikkim or Assam,north_east_india  
+wants to settle in Meghalaya,north_east_india  
+
+goa resident,goa  
+prefers laid-back life in Goa,goa  
+
+wants to settle in a quiet hill station,hill_station  
+loves mountain life,hill_station  
+open to Himachal-based match,hill_station  
+wants to live in Ooty,hill_station  
+
+open to EU match,europe  
+lives in Spain,europe  
+German resident,europe  
+France based,europe  
+
+can relocate to UK if needed,open_to_uk  
+UK student visa holder,open_to_uk  
+UK citizen preferred,open_to_uk  
+
+ready to move to Australia,australia  
+Sydney-based profile preferred,australia  
+lives in Melbourne,australia  
+PR in Australia,australia  
+
+resides in New Zealand,new_zealand  
+open to Wellington,new_zealand  
+wants match from Auckland,new_zealand  
+
+looking for partner from South India,south_india  
+Andhra Pradesh match preferred,south_india  
+Telugu speaking family preferred,south_india  
+Tamil Nadu based match,south_india  
+
+open to North Indian families,north_india  
+Delhi NCR match preferred,north_india  
+Jaipur based alliance,north_india  
+
+prefers Gujarati family,gujarat  
+settled in Ahmedabad,gujarat  
+
+based in Rajasthan,rajasthan  
+match from Udaipur preferred,rajasthan  
+
+no location constraints,no_preference  
+match from anywhere is fine,no_preference  
+settlement location open,no_preference  
+marriage not tied to geography,no_preference  
+willing to go where life takes us,no_preference  
+

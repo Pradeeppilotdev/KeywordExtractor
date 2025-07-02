@@ -1,0 +1,588 @@
+caste_community,category
+brahmin,brahmin
+iyer brahmin,brahmin
+iyengar community,brahmin
+tam-brahm,brahmin
+orthodox brahmin,brahmin
+south indian brahmin,brahmin
+hindu brahmin,brahmin
+brahmin tamilian,brahmin
+sanketi brahmin,brahmin
+maharashtrian brahmin,brahmin
+kannada brahmin,brahmin
+konkani brahmin,brahmin
+goswami caste,brahmin
+thakur,thakur
+vaishya,vaishya
+tyagi,tyagi
+bhumihar,bhumihar
+muslims,muslim
+christians,christian
+rajput,rajput
+kayastha,kayastha
+muslims pathans,muslim
+muslim mughals,muslim
+muslim shaikh,muslim
+muslim sayyad,muslim
+jat sikh,jatt
+bania,baniya
+punjabi khatri,khatri
+punjabi arora,arora
+punjabi sood,sood
+baidya,baidya
+patidar,patidar
+patel,patel
+kshatriya,kshatriya
+reddy,reddy
+kamma,kamma
+kapu,kapu
+gomati baniya,baniya
+velamma,velamma
+khsatriya raju,kshatriya
+iyengar,iyengar
+iyer,iyer
+vellalars,vellalar
+nair,nair
+naidu,naidu
+mukkulathor,mukkulathor
+sengunthar,sengunthar
+parkavakulam,parkavakulam
+nagarathar baniya,chettiar
+komati,komati
+vokkaliga,vokkaliga
+lingayats,lingayat
+bunts,bunt
+nair caste,nair
+traditional nair,nair
+keralite nair,nair
+malayalee nair,nair
+nair family,nair
+iyer caste,iyer
+iyer community,iyer
+tamil iyer,iyer
+brahmin iyer,iyer
+iyer background,iyer
+naidu caste,naidu
+naidu family,naidu
+telugu naidu,naidu
+naidu community,naidu
+vanniyar caste,vanniyar
+vanniyar community,vanniyar
+vanniyar background,vanniyar
+gounder caste,gounder
+kongu gounder,gounder
+gounder community,gounder
+maratha caste,maratha
+maratha background,maratha
+born maratha family,maratha
+yadav caste,yadav
+yadav community,yadav
+north indian yadav,yadav
+jat caste,jatt
+jat community,jatt
+haryana jat,jatt
+kayastha caste,kayastha
+bengali kayastha,kayastha
+kayastha background,kayastha
+baniya caste,baniya
+baniya community,baniya
+vaishya caste,vaishya
+vaishya background,vaishya
+ezhava caste,ezhava
+kerala ezhava,ezhava
+ezhava community,ezhava
+nadar caste,nadar
+nadar community,nadar
+nadar tamil,nadar
+chettiar caste,chettiar
+chettiar background,chettiar
+mudaliar caste,mudaliar
+mudaliar tamil,mudaliar
+mudaliar family,mudaliar
+lingayat caste,lingayat
+lingayat community,lingayat
+vokkaliga caste,vokkaliga
+vokkaliga community,vokkaliga
+tamil muslim,muslim
+muslim family,muslim
+syed caste,muslim
+shaikh caste,muslim
+telugu christian,christian
+roman catholic,christian
+syrian christian,christian
+mangalorean catholic,christian
+tamil brahmin,brahmin
+north indian brahmin,brahmin
+sikh family,sikh
+punjabi sikh,sikh
+ramgarhia caste,sikh
+mazhabi sikh,sikh
+reddy caste,reddy
+reddy community,reddy
+telugu reddy,reddy
+born into reddy family,reddy
+reddy background,reddy
+kamma caste,kamma
+kamma naidu,kamma
+andhra kamma,kamma
+wealthy kamma family,kamma
+kapu caste,kapu
+kapu naidu,kapu
+belongs to kapu caste,kapu
+from kapu background,kapu
+tamil gounder,gounder
+gounder family,gounder
+thevar caste,thevar
+mukkulathor,thevar
+maravar,thevar
+agri thevar,thevar
+nagarathar,chettiar
+trader community,chettiar
+agrawal caste,agrawal
+hindu baniya,agrawal
+agrawal family,agrawal
+jain,jain
+shwetambar jain,jain
+digambar jain,jain
+strict jain,jain
+born into jain family,jain
+muslim,muslim
+born muslim,muslim
+sunni muslim,muslim
+shia muslim,muslim
+orthodox muslim,muslim
+islamic faith,muslim
+religious muslim,muslim
+practicing islam,muslim
+muslim by birth,muslim
+devout muslim,muslim
+christian,christian
+catholic,christian
+protestant christian,christian
+orthodox christian,christian
+baptist,christian
+pentecostal,christian
+evangelical,christian
+non-denominational christian,christian
+christ follower,christian
+churchgoer,christian
+hindu,hindu
+devout hindu,hindu
+temple-going hindu,hindu
+practices hinduism,hindu
+religious hindu,hindu
+follows hindu culture,hindu
+deeply spiritual hindu,hindu
+sikh,sikh
+amritdhari sikh,sikh
+turbaned sikh,sikh
+gursikh,sikh
+keshdhari,sikh
+buddhist,buddhist
+follows buddhism,buddhist
+dalai lama devotee,buddhist
+zen buddhist,buddhist
+vipassana practitioner,buddhist
+buddhist monk family,buddhist
+parsi,parsi
+zoroastrian,parsi
+follows fire temple,parsi
+parsi community,parsi
+jatt caste,jatt
+punjabi jatt,jatt
+jatt sikh,jatt
+jatt hindu,jatt
+rajput caste,rajput
+kshatriya rajput,rajput
+royal rajput lineage,rajput
+traditional rajput,rajput
+veershaiva,lingayat
+sc caste,sc
+scheduled caste,sc
+dalit,sc
+marginal caste background,sc
+st caste,st
+scheduled tribe,st
+tribal community,st
+indigenous background,st
+sindhi,sindhi
+sindhi hindu,sindhi
+sindhi business family,sindhi
+marwari,marwari
+marwari baniya,marwari
+rajasthani marwari,marwari
+chhetri,chhetri
+nepali chhetri,chhetri
+khas chhetri,chhetri
+bahun,bahun
+pahadi brahmin,bahun
+hill bahun,bahun
+kurmi caste,kurmi
+kurmi community,kurmi
+backward caste kurmi,kurmi
+kayasta family,kayastha
+gop community,yadav
+ahirs,yadav
+obc category,obc
+other backward caste,obc
+belongs to obc,obc
+obc background,obc
+ethiopian orthodox,ethiopian_orthodox
+habesha christian,ethiopian_orthodox
+mormon,mormon
+latter day saints,mormon
+lds member,mormon
+jehovah’s witness,jehovah
+jw faith,jehovah
+zulu tribe,zulu
+zulu heritage,zulu
+ashkenazi jew,jewish
+sephardic jew,jewish
+orthodox jew,jewish
+jewish background,jewish
+israeli jew,jewish
+druse faith,druze
+lebanese druze,druze
+druze religion,druze
+bahai faith,bahai
+follows bahai,bahai
+pagan,pagan
+neo-pagan,pagan
+nature worshipper,pagan
+wiccan,wiccan
+modern witch,wiccan
+wicca faith,wiccan
+spiritual but not religious,spiritual
+follows spiritual path,spiritual
+new age spiritual,spiritual
+believes in energy healing,spiritual
+atheist,atheist
+does not believe in god,atheist
+non-believer,atheist
+rationalist,atheist
+agnostic,agnostic
+unsure about god,agnostic
+open minded spiritualist,agnostic
+caste no bar,intercaste
+religion no bar,intercaste
+any caste acceptable,intercaste
+intercaste friendly,intercaste
+open to all backgrounds,intercaste
+no religious restrictions,intercaste
+dont believe in caste,intercaste
+ad dharmi,sc
+agaria,st
+aheria,obc
+ahom,st
+ajnath,obc
+badhai,obc
+badi,obc
+badhik,obc
+bagdi,sc
+bahna,obc
+baiga,st
+bairagi,obc
+bairwa,sc
+bajania,obc
+bajigar,sc
+balahi,sc
+balai,sc
+balija,obc
+balmiki,sc
+banjara,obc
+barai,obc
+barar,obc
+barhai,obc
+bari,obc
+basod,obc
+basor,sc
+bauri,sc
+bawaria,sc
+bazigar,sc
+bedia,obc
+beldar,obc
+berwa,sc
+bhangi,sc
+bhanumati,obc
+bhar,sc
+bhil,st
+bhilala,st
+bhishti,obc
+bhoi,obc
+bhuian,st
+bhuinmali,sc
+bhunjia,st
+bhuva,obc
+binjhia,st
+birhor,st
+birjia,st
+bishnoi,obc
+boria,obc
+budga jangam,sc
+byagara,sc
+chali,obc
+chamar,sc
+chambhar,sc
+chanwar,obc
+chero,st
+chhipi,obc
+chhohar,sc
+chirimar,obc
+chitrakar,obc
+churihar,obc
+dabgar,obc
+dakaleru,sc
+daroi,obc
+darzi,obc
+dhangar,obc
+dhanuk,obc
+dhanwar,st
+dharkar,sc
+dhawala,sc
+dhed,sc
+dhimer,obc
+dhobi,sc
+dholi,sc
+dhusia,sc
+dom,sc
+domar,sc
+dosadh,sc
+dusadh,sc
+ganda,sc
+gandhila,sc
+ghasi,sc
+ghosi,obc
+gihara,obc
+godda,st
+gond,st
+gonds,st
+gondwana,st
+gosain,brahmin
+gosangi,obc
+gujjar,obc
+habura,sc
+hari,sc
+hela,sc
+hijra,obc
+holer,sc
+jatav,sc
+jharia,obc
+jogi,obc
+johari,obc
+julaha,obc
+kabar,obc
+kabirpanthi,obc
+kalal,obc
+kalbelia,sc
+kamar,st
+kamati,obc
+kanjar,sc
+kapariya,sc
+karimpuri,sc
+karmali,st
+kasai,obc
+kashyap,obc
+kewat,obc
+khairaha,st
+khairwar,st
+kharot,obc
+kharwar,st
+khatik,sc
+kheria,st
+khond,st
+kisan,obc
+koeri,obc
+kol,st
+koli,obc
+koli kor,st
+kolis,st
+korku,st
+korwa,st
+koshthi,obc
+koti,st
+kuchbandia,sc
+kudmi,obc
+kumhar,obc
+kurmi,obc
+kuswaha,obc
+lodha,obc
+lodhi,obc
+lohar,obc
+lonia,obc
+madari,obc
+madiga,sc
+mahali,st
+mahar,sc
+mahli,st
+mahuri,obc
+majhwar,st
+mala,sc
+mali,obc
+mallah,obc
+mang,sc
+mang garodi,sc
+meena,st
+mehtar,sc
+mena,st
+moghia,sc
+munda,st
+musahar,sc
+nagarchi,sc
+namasudra,sc
+nat,obc
+natta,obc
+nayak,st
+oraon,st
+paliya,sc
+pan,sc
+panka,sc
+pano,sc
+panwar,sc
+pardhi,st
+paria,sc
+pasi,sc
+patari,st
+pathar,sc
+pindari,obc
+prajapati,obc
+rabari,obc
+raigar,sc
+rajbhar,obc
+rajgond,st
+rajwar,sc
+ramdasia,sc
+raut,obc
+rawal,obc
+sabar,st
+saharia,st
+salvi,obc
+sansi,sc
+santal,st
+sapera,sc
+sarania,obc
+sargara,sc
+satnami,sc
+shilpkar,sc
+sikligar,sc
+sonar,obc
+sonkar,sc
+tanti,obc
+tati,obc
+teli,obc
+thami,st
+tharu,st
+turi,sc
+valmiki,sc
+adiyan,st
+aranda,st
+arandan,st
+eravallan,st
+hill pulaya,st
+mala pulayan,st
+kurumba pulayan,st
+karavazhi pulayan,st
+pamba pulayan,st
+irular,st
+irulan,st
+kadar,st
+wayanad kadar,st
+kanikkaran,st
+kanikar,st
+karimpalan,st
+kattunayakan,st
+kochuvelan,st
+koraga,st
+kudiya,st
+melakudi,st
+kurichchan,st
+kurichiyan,st
+kurumans,st
+mullu kuruman,st
+mulla kuruman,st
+mala kuruman,st
+kurumbas,st
+kurumbar,st
+kurumban,st
+mala arayan,st
+mala panickar,st
+malai vedan,st
+malakkuravan,st
+mala malasar,st
+malasar,st
+malayan,st
+malayekandi,st
+mannan,st
+marati,st
+mavilan,st
+moger,st
+mogeyar,st
+mudugar,st
+muduvan,st
+muthuvan,st
+naikda,st
+nayaka,st
+oorali,st
+palliyan,st
+palliyar,st
+paniyan,st
+pulayan,st
+pulayar,st
+ulladan,st
+ullatan,st
+vettakuruman,st
+andh,st
+sadhu,obc
+bhumia,st
+bharia,st
+bhil mina,st
+damor,st
+damaria,st
+dhanka,st
+dhodia,st
+gamit,st
+gowari,st
+halba,st
+halbi,st
+kawar,st
+kondh,st
+madia,st
+maria,st
+mina,st
+patelia,st
+rathia,st
+saur,st
+barda,st
+bavacha,st
+bhotia,st
+bhute,st
+bhutt,st
+bhutta,st
+bhuyan,st
+bhuiya,st
+bhuyia,st
+bodo,st
+bodo gadaba,st
+boro,st
+chenchu,st
+cheru,st
+chodhara,st
+chodhari,st
+dhulia,st
+dhodi,st
+dubla,st
+gadaba,st
+gadaba bodo,st
+gadaba katheri,st
+gamta,st
+gavaria,st
+koli dhor,st
+koli mahadev,st
+kolcha,st
+kolgha,st
+kotia,st
+koya,st
+vitolia,st
+bhaina,st
+bhattra,st
+bedar,st
+asur,st
